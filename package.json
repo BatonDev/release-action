@@ -1,0 +1,28 @@
+{
+  "name": "release-action",
+  "version": "1.0.0",
+  "description": "This action prints \"Hello World\" or \"Hello\" + the name of a person to greet to the log.",
+  "main": "release.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BatonDev/release-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BatonDev/release-action/issues"
+  },
+  "homepage": "https://github.com/BatonDev/release-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/exec": "^1.0.1",
+    "@actions/github": "^1.1.0",
+    "fs-extra": "^8.1.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.3"
+  }
+}

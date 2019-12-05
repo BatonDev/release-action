@@ -1,0 +1,18 @@
+name: Release version after PR merge
+description: BatonDev release action
+author: Derek Overby
+inputs:
+  token:
+    description: 'github access token'
+    required: true
+  authorName:
+    description: 'git author name to be used on release commit(s)'
+    required: false
+    default: 'GitHub Action'
+  authorEmail:
+    description: 'git author email to be used on release commit(s)'
+    required: false
+    default: 'action@github.com'
+runs:
+  using: node12
+  main: release.js
